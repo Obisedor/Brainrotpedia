@@ -1,0 +1,17 @@
+{
+  "title": "My Documentation",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Welcome to the documentation. This explains everything."
+    },
+    {
+      "heading": "Installation",
+      "content": "Step 1: Download.\nStep 2: Install.\nStep 3: Run."
+    },
+    {
+      "heading": "API Reference",
+      "content": "Here is the API documentation..."
+    }
+  ]
+}
