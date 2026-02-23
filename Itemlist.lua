@@ -5,18 +5,10 @@ local Itemlist = {
 
     PlotUpgrades = {
         ["FoodBowl"] = {
-            StandardUnlocked = true,
-            PetInteraction = {
-                EatDefault = {Hunger = 100},
-                EatFreshVegetables = {Hunger = 175, Health = 1}
-            }
+            StandardUnlocked = true
         },
         ["DrinkBowl"] = {
-            StandardUnlocked = true,
-            PetInteraction = {
-                EatDefault = {Thirst = 100},
-                Energy = {Thirst = 80, Energy = 300}
-            }
+            StandardUnlocked = true
         },
         ["Pet toy"] = {
             Description = "",
@@ -31,7 +23,16 @@ local Itemlist = {
                 Default = {Happiness = 35, Energy = -5}
             }
         },
-
+		["Pet weapons"] = {
+			Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Upgrades",
+                Order = 0,
+                Price = 676,
+                Currency = "Money"
+            },
+		},
         ["Playground"] = {
             Description = "",
             ShopInfo = {
@@ -46,9 +47,157 @@ local Itemlist = {
                 PlaySwing = {Happiness = 20, Energy = -15}
             }
         }
+    },
+
+    Ingredients = {
+        ["Noodles"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Beef"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Bread"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Cheese"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Flour"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Cheese"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Lettuce"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Sugar"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Tomato"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        },
+        ["Eggs"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Ingredients",
+                Order = 0,
+                Price = 5,
+                Currency = "Money"
+            },
+        }
+    },
+
+    Items = {
+        ["Water bottle"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Items",
+                Order = 0,
+                Price = 25,
+                Currency = "Money"
+            },
+            PetConsumption = {Thirst = 100}
+        },
+        ["Energy can"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Items",
+                Order = 0,
+                Price = 25,
+                Currency = "Money"
+            },
+            PetConsumption = {Energy = 300}
+        },
+        ["Food"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Items",
+                Order = 0,
+                Price = 25,
+                Currency = "Money"
+            },
+            PetConsumption = {Hunger = 100}
+        },
+        ["Fresh vegetables"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Items",
+                Order = 0,
+                Price = 25,
+                Currency = "Money"
+            },
+            PetConsumption = {Hunger = 85, Health = 3}
+        }
     }
-
-
 
 
 }
