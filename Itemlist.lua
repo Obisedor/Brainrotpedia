@@ -3,21 +3,27 @@ local Itemlist = {
 
 
 
-    StandardPlotEquipment = {
+    PlotUpgrades = {
         ["FoodBowl"] = {
+            StandardUnlocked = true,
             PetInteraction = {
                 EatDefault = {Hunger = 100},
                 EatFreshVegetables = {Hunger = 175, Health = 1}
             }
-        }
-    },
-
-
-
-    PlotUpgrades = {
+        },
+        ["DrinkBowl"] = {
+            StandardUnlocked = true,
+            PetInteraction = {
+                EatDefault = {Thirst = 100},
+                Energy = {Thirst = 80, Energy = 300}
+            }
+        },
         ["Pet toy"] = {
             Description = "",
             ShopInfo = {
+                Shop = "PC",
+                Category = "Upgrades",
+                Order = 0,
                 Price = 67,
                 Currency = "Money"
             },
@@ -29,6 +35,9 @@ local Itemlist = {
         ["Playground"] = {
             Description = "",
             ShopInfo = {
+                Shop = "PC",
+                Category = "Upgrades",
+                Order = 0,
                 Price = 676,
                 Currency = "Money"
             },
