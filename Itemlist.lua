@@ -23,6 +23,19 @@ local Itemlist = {
                 Default = {Happiness = 35, Energy = -5}
             }
         },
+		["Gunners"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "PC",
+                Category = "Upgrades",
+                Order = 0,
+                Price = 6767,
+                Currency = "Money"
+            },
+            PetInteraction = {
+                Default = {Damage = 15}
+            }
+        },
 		["Pet weapons"] = {
 			Description = "",
             ShopInfo = {
