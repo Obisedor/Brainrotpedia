@@ -55,7 +55,7 @@ local Itemlist = {
                 Currency = "Money"
             },
 		},
-        ["Playground"] = {
+        ["Plant pots"] = {
             Description = "",
             ShopInfo = {
                 Shop = "PC",
@@ -63,13 +63,9 @@ local Itemlist = {
                 Order = 0,
                 Price = 676,
                 Currency = "Money"
-            },
-            PetInteraction = {
-                PlaySlide = {Happiness = 15, Energy = -5},
-                PlaySwing = {Happiness = 20, Energy = -15}
             }
         },
-		["PC2"] = {
+		["Futuristic PC"] = {
             Description = "Get more & better upgrades in the shop!",
             ShopInfo = {
 				Display = "Futuristic PC"
@@ -80,6 +76,20 @@ local Itemlist = {
                 Currency = "Money"
             }
         }
+		["Playground"] = {
+            Description = "",
+            ShopInfo = {
+                Shop = "Futuristic PC",
+                Category = "Upgrades",
+                Order = 0,
+                Price = 676,
+                Currency = "Money"
+            },
+            PetInteraction = {
+                PlaySlide = {Happiness = 15, Energy = -5},
+                PlaySwing = {Happiness = 20, Energy = -15}
+            }
+        },
     },
 
     Ingredients = {
