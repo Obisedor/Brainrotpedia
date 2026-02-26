@@ -10,6 +10,15 @@ local Itemlist = {
         ["DrinkBowl"] = {
             StandardUnlocked = true
         },
+		["Mailbox"] = {
+            StandardUnlocked = true
+        },
+		["Bed"] = {
+            StandardUnlocked = true
+        },
+		["PC1"] = {
+            StandardUnlocked = true
+        },
         ["Pet toy"] = {
             Description = "",
             ShopInfo = {
@@ -58,6 +67,17 @@ local Itemlist = {
             PetInteraction = {
                 PlaySlide = {Happiness = 15, Energy = -5},
                 PlaySwing = {Happiness = 20, Energy = -15}
+            }
+        },
+		["PC2"] = {
+            Description = "Get more & better upgrades in the shop!",
+            ShopInfo = {
+				Display = "Futuristic PC"
+                Shop = "PC",
+                Category = "Upgrades",
+                Order = 0,
+                Price = 676767,
+                Currency = "Money"
             }
         }
     },
