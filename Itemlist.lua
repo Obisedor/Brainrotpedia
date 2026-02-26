@@ -22,7 +22,7 @@ local Itemlist = {
 		["Bed"] = {
             StandardUnlocked = true
         },
-		["PC1"] = {
+		["PC"] = {
             StandardUnlocked = true
         },
         ["Pet toy"] = {
