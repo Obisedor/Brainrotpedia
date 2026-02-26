@@ -7,6 +7,12 @@ local Itemlist = {
         ["FoodBowl"] = {
             StandardUnlocked = true
         },
+		["Fridge"] = {
+            StandardUnlocked = true
+        },
+		["Kitchen"] = {
+            StandardUnlocked = true
+        },
         ["DrinkBowl"] = {
             StandardUnlocked = true
         },
