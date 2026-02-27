@@ -48,7 +48,7 @@ local Itemlist = {
                 Currency = "Money"
             },
             PetInteraction = {
-                Default = {Damage = 15}
+                Default = {Health = -15}
             }
         },
 		["Pet weapons"] = {
