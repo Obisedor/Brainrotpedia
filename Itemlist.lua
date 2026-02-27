@@ -1,13 +1,20 @@
 local Itemlist = {
 
 
-
-
+	MiscUpgrades = {
+		["Extra money 1"] = {
+			ShopInfo = {
+                Shop = "Extra money (+1)",
+                Category = "Upgrades",
+                Order = 0,
+                Price = 67,
+                Currency = "Money"
+            },
+		}
+	},
+	
     PlotUpgrades = {
         ["FoodBowl"] = {
-            StandardUnlocked = true
-        },
-		["Fridge"] = {
             StandardUnlocked = true
         },
 		["Kitchen"] = {
@@ -74,7 +81,7 @@ local Itemlist = {
 		["Futuristic PC"] = {
             Description = "Get more & better upgrades in the shop!",
             ShopInfo = {
-				Display = "Futuristic PC"
+				Display = "PC"
                 Shop = "PC",
                 Category = "Upgrades",
                 Order = 0,
@@ -85,7 +92,11 @@ local Itemlist = {
 		["Playground"] = {
             Description = "",
             ShopInfo = {
-                Shop = "Futuristic PC",
+				Requirements = {
+					RequirementType = "Upgrade",
+					RequirementArg = "Futuristic PC"
+				},
+                Shop = "PC",
                 Category = "Upgrades",
                 Order = 0,
                 Price = 676,
