@@ -1,21 +1,6 @@
 local Itemlist = {
 
-
-	MiscUpgrades = {
-		["Extra money 1"] = {
-			Description = "Receive one dollar extra on all incoming money.",
-			ShopInfo = {
-				Display = "Extra money (+1)",
-                Shop = "PC",
-                Category = "Upgrades",
-                Order = 0,
-                Price = 67,
-                Currency = "Money"
-            },
-		}
-	},
-	
-    PlotUpgrades = {
+    Upgrades = {
         ["FoodBowl"] = {
             StandardUnlocked = true
         },
@@ -80,6 +65,21 @@ local Itemlist = {
                 Currency = "Money"
             }
         },
+		["Extra money 1"] = {
+			Type = "Virtual",
+			Description = "Receive one dollar extra on all incoming money.",
+			ShopInfo = {
+				Display = "Extra money (+1)",
+                Shop = "PC",
+                Category = "Upgrades",
+                Order = 0,
+                Price = 67,
+                Currency = "Money"
+            }
+			ItemData = {
+				[1] = +1
+			}
+		},
 		["Futuristic PC"] = {
             Description = "Get more & better upgrades in the shop!",
             ShopInfo = {
