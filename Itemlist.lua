@@ -65,7 +65,7 @@ local Itemlist = {
                 Currency = "Money"
             }
         },
-		["Extra money 1"] = {
+		["86351157-042d-43fe-940f-a0942150ed7e"] = {
 			Type = "Virtual",
 			Description = "Receive one dollar extra on all incoming money.",
 			ShopInfo = {
