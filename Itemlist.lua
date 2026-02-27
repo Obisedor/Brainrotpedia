@@ -43,7 +43,11 @@ local Itemlist = {
             },
             PetInteraction = {
                 Default = {Health = -15}
-            }
+            },
+			ItemData = {
+				ShootDamage = 35,
+				ShootSpeed = 0.25 -- 1 bullet/xx waiting time (speed)
+			}
         },
 		["Pet weapons"] = {
 			Description = "",
