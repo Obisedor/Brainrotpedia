@@ -77,7 +77,7 @@ local Itemlist = {
                 Currency = "Money"
             }
 			ItemData = {
-				[1] = +1
+				ExtraMoney = 1
 			}
 		},
 		["Futuristic PC"] = {
