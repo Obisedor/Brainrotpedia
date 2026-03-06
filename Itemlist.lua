@@ -46,7 +46,7 @@ local Itemlist = {
 			},
 			ItemData = {
 				ShootDamage = 35,
-				ShootSpeed = 0.25 -- 1 bullet/xx waiting time (speed)
+				ShootInterval = 0.25 -- in seconds
 			}
 		},
 		["Pet weapons"] = {
